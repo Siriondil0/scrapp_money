@@ -2,7 +2,7 @@
 <div class= "text-light  d-flex align-content-end flex-wrap ">
 <div class="center jumbotron bg-secondary">  
 
-<h1>Salut, tu veux le cours de cryptos monnaies ?</h1>
+<h1>Salut, tu veux le cours d'une crypto-monnaie ?</h1>
 
 
 
@@ -15,7 +15,7 @@
     <p id="error"><%= flash[:error] %></p>
     <%= link_to "Retour au choix de la monnaie", '/', method: :get%>
   <% else %>
-  <p>Entre leurs nom ci dessous !</p>
+  <p>Choisi son nom dans la liste ci dessous !</p>
   <%= form_for :anything, url: "home#index", method: :get do |form| %>
     <%= form.select(:to, options_for_select(@name_money)) %>
     <%= form.submit value="Confirme ici!" %>
