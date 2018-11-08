@@ -1,25 +1,30 @@
-# README
+# THP Semaine 6 Jour 1
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Exercice provenant de [The Hacking Project](https://www.thehackingproject.org/)
+                         
+## Movie searcher :cool:
 
-Things you may want to cover:
+### Enoncé
 
-* Ruby version
+Cet exercice sera un peu moins pas à pas, car un skill très important pour les devs est d'aller lire les docs et tester plein de trucs.
 
-* System dependencies
+Tu dois faire un site qui va te demander sur la page d'accueil de rentrer un nom de film en recherche. Si la recherche renvoie un ou plusieurs films, le site doit afficher les 20 premiers en mentionnant :
 
-* Configuration
+    * le nom du film
+    * la date de sortie
+    * le réalisateur
+    * une image s'il y en a une
 
-* Database creation
+Si la recherche rentre bredouille, le site va renvoyer un truc du genre "yo la recherche n'a rien donné"
 
-* Database initialization
 
-* How to run the test suite
+## Lien Heroku :
+[Lien Club-project sur Heroku](https://ask-your-money.herokuapp.com/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Projet réalisé par:tea: :
 
-* Deployment instructions
+* :heavy_dollar_sign: Guillaume Pichot   slack/  @Guillaume
 
-* ...
+
+     :end: :end: :end: :end: :end: :end: :end: :end: :end:
 # scrapp_money
