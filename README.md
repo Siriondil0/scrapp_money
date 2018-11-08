@@ -1,25 +1,19 @@
-# THP Semaine 6 Jour 1
+
+# THP Semaine 6 Jour 4
 
 Exercice provenant de [The Hacking Project](https://www.thehackingproject.org/)
                          
-## Movie searcher :cool:
+## Scrappeur OKLM :cool:
 
 ### Enoncé
 
-Cet exercice sera un peu moins pas à pas, car un skill très important pour les devs est d'aller lire les docs et tester plein de trucs.
+Cette application sera un formulaire simple, qui va demander le nom de la monnaie demandée, puis afficher le cours actuel de cette monnaie. Pour le nom, tu peux faire un dropdown par exemple.
 
-Tu dois faire un site qui va te demander sur la page d'accueil de rentrer un nom de film en recherche. Si la recherche renvoie un ou plusieurs films, le site doit afficher les 20 premiers en mentionnant :
-
-    * le nom du film
-    * la date de sortie
-    * le réalisateur
-    * une image s'il y en a une
-
-Si la recherche rentre bredouille, le site va renvoyer un truc du genre "yo la recherche n'a rien donné"
+Cette application n'utilisera pas d'API, mais c'est une excellente façon de jouer avec les services, les controller, et les views.
 
 
 ## Lien Heroku :
-[Lien Club-project sur Heroku](https://ask-your-money.herokuapp.com/)
+[Lien du projet sur Heroku](https://ask-your-money.herokuapp.com/)
 
 ## Projet réalisé par:tea: :
 
