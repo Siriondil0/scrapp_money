@@ -3,19 +3,20 @@ require 'open-uri'
 
 class Scrapp_money
 	# frozen_string_literal: true
-  attr_accessor :hash
+  attr_accessor :hash, :name
 
-  def initialize(url, name_money)
+  def initialize(name_money="" ,url = "https://coinmarketcap.com/all/views/all/")
     @url = url
     @page = Nokogiri::HTML(open(@url))
     @hash = {}
+    @name = []
     @money_name= name_money
     # on récupère le texte contenu dans la classe currency-name-container link-secondary
   end
 
   # Récupère un tableau contenant le nom des monnaies
   def get_name_money 
-    @page.xpath('//a[@class="currency-name-container link-secondary"]').map { |link| link.text }
+    @name=@page.xpath('//a[@class="currency-name-container link-secondary"]').map { |link| link.text }
   end
 
   # Récupère un tableau contenant le prix des monnaies

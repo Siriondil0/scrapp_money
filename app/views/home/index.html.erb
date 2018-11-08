@@ -17,7 +17,7 @@
   <% else %>
   <p>Entre leurs nom ci dessous !</p>
   <%= form_for :anything, url: "home#index", method: :get do |form| %>
-    <%= form.text_field :name %>
+    <%= form.select(:to, options_for_select(@name_money)) %>
     <%= form.submit value="Confirme ici!" %>
   <% end  %>
 <% end  %>
